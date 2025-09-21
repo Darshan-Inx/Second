@@ -41,9 +41,8 @@ def game():
         print(f"Sorry! The correct number was {number_to_guess}.")
 
     elif not guessed_correctly:
+        print("Not Found Brother")
+    elif not guessed_correctly:
         print("Sorry Brother.....")
-
-    else:
-        print("Not okay...")
 if __name__ == "__main__":
     game()
