@@ -40,5 +40,7 @@ def game():
     if not guessed_correctly:
         print(f"Sorry! The correct number was {number_to_guess}.")
 
+    else:
+        print("Sorry Brother.....")
 if __name__ == "__main__":
     game()
